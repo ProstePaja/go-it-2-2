@@ -22,10 +22,6 @@ button {
     letter-spacing: 0.03em;
     color: #2e2f42;
 }
-.logo-logo:hover,
-    focus{
-        color: #404bbf;
-    }
 .logo{
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
@@ -44,6 +40,10 @@ button {
     color: #2E2F42;
     
 }
+.menu-link:hover,
+.menu.link:focus{
+        color: #404bbf;
+    }
 .address-menu{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
