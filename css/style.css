@@ -44,7 +44,10 @@ button {
 .menu.link:focus{
         color: #404bbf;
     }
-.address-menu{
+.address{
+    font-style: normal;
+}
+.address-item{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -52,6 +55,10 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.address-item:hover,
+.address-item:focus{
+    color: #404bbf;
 }
 .first-section{
     background-color: #2e2f42;
