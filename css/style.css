@@ -40,8 +40,10 @@ button {
     color: #2E2F42;
     
 }
-.menu-link:hover,
-.menu.link:focus{
+.menu-link:hover{
+        color: #404bbf;
+    }
+    .menu-link:focus{
         color: #404bbf;
     }
 .address{
@@ -81,7 +83,11 @@ button {
     color: #FFFFFF;
     background-color: #4D5AE5;
 }
-.second-section-item{
+.main-title-button:hover,
+.main-title-button:focus{
+    background-color: #404BBF;
+}
+.second-section-title{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
